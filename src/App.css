@@ -1,0 +1,56 @@
+.main{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230322/pngtree-to-do-list-hand-drawn-file-psd-image_2050578.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.home{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.btn{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox.icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+
+}
+.line_through{
+  text-decoration: line-through;
+}
